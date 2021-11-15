@@ -7,16 +7,16 @@
 
 Scripts to install/configure [ProxMox](https://www.proxmox.com/en/) on a [RaspberryPi4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) running [RaspberryPiOS](https://www.raspberrypi.com/software/).
 
-Tested with ProxMox VE v7 and Raspberry Pi4 model B.
+Tested with ProxMox VE v7, Raspberry Pi4 model B and RaspiOS x64 Lite 2021-11-08.
 
 Do not use this for commercial/production purposes!
 
 ## Usage
 
-1. Download and flash the latest [OS](https://downloads.raspberrypi.org/raspios_arm64/images/).
+1. Download and flash the latest [OS](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2021-11-08/).
 1. SSH and then `passwd` to change the default password for `pi`.
 1. `sudo -s`
-1. `curl https://raw.githubusercontent.com/pimox/pimox7/master/RPiOS64autoinstall.sh > RPiOS64autoinstall.sh`
+1. `curl https://raw.githubusercontent.com/TuxfeatMac/pimox7/master/RPiOS64-IA-Install.sh > RPiOS64-IA-Install.sh`
 1. `curl https://raw.githubusercontent.com/noofny/proxmox_rpi4/master/configure.sh > configure.sh`
 1. `chmod +x *.sh`
 1. `nano RPiOS64autoinstall.sh` and set your preferred hostname / static IP details.
