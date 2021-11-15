@@ -19,8 +19,7 @@ Do not use this for commercial/production purposes!
 1. `curl https://raw.githubusercontent.com/TuxfeatMac/pimox7/master/RPiOS64-IA-Install.sh > RPiOS64-IA-Install.sh`
 1. `curl https://raw.githubusercontent.com/noofny/proxmox_rpi4/master/configure.sh > configure.sh`
 1. `chmod +x *.sh`
-1. `nano RPiOS64autoinstall.sh` and set your preferred hostname / static IP details.
-1. `./RPiOS64autoinstall.sh` and follow any prompts.
+1. `./RPiOS64-IA-Install.sh` and follow any prompts.
 1. Wait for script to complete and the Pi will reboot. Seems like errors like below are common and not a show stopper...
 
     ```text
